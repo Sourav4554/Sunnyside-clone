@@ -1,5 +1,52 @@
-*{
-padding: 0;
-margin: 0;
-box-sizing: border-box;
+:root{
+--bg-footer:#90d4c5;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+nav {
+  width: 100%;
+  padding: 5px;
+  background-color: #2596be;
+}
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 2px;
+}
+.logo {
+  padding: 3px 4px;
+}
+.logo > h2 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.nav-links > ul > li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.contact {
+  font-size: 1.2rem;
+  padding: 0.6em 1.2em;
+  color: #444b52;
+  background-color: #fff;
+  border-radius: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.about,
+.service,.project {
+  padding: 5px 8px;
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 600;
 }
